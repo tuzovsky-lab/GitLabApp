@@ -10,10 +10,11 @@ namespace GitLabApp
     {
         static void Main(string[] args)
         {
+            Console.Write("Введите значение парметра x: ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double F = 2 * Math.Cos(x);
-            Console.WriteLine(F);
+            Console.WriteLine($"Значение F = {F}.");
             Console.ReadKey();
         }
     }
